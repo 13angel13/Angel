@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson_1;
+package Uroven_0;
 
 /**
  *
- * @author пк
+ * @author Drozdova
  */
-public class zadanie_1 {
- public static void main(String[] args) {
-      System.out.println("hello world");   
-}}
+public class Zadanie6 {
+    public static void main (String args[]) {
+        System.out.print("Это не баг, это фича.");
+    }
+}

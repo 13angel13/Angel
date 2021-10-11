@@ -1,5 +1,4 @@
 /*
- *Комплимент учителю
 Написать программу, выводящую на экран надпись «Элли самая красивая» 5 раз. Каждый раз – с новой строки.
 
 Пример вывода на экран:
@@ -14,15 +13,17 @@
 3. Текст должен заканчиваться на «красивая».
 4. Текст должен состоять из 5 строк.
 5. Выводимый текст должен соответствовать заданию.
- *
  */
 package Uroven_0;
 
 /**
-Drozdova
+ *
+ * @author Drozdova
  */
-public class Zadanie_3 {
-    public static void main(String[] args) {
-      for 
-      System.out.println("Элли самая красивая" + "\n");
-}}
+public class Zadanie3 {
+     public static void main (String args[]) {
+        for (int i = 1; i < 6;  i++){
+           System.out.println(i + ") " + "Элли самая красивая"); 
+        }
+    }        
+}
